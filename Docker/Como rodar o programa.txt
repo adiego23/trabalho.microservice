@@ -1,0 +1,16 @@
+Para executar:
+
+Compilar o projeto:
+./mvnw package && java -jar target/trabalho.jar
+
+
+
+Build o docker:
+
+docker build -t trabalho/trabalho-docker 
+
+
+
+executar o container:
+
+docker run -p 8080:8080 -t trabalho/trabalho-docker
